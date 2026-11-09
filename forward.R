@@ -5,6 +5,6 @@ f <- function(x) {
 x <- 2
 h <- 0.1
 
-forward <- (f(x + h) - f(x)) / h
+backward <- (f(x) - f(x - h)) / h
 
-forward 
+backward 
